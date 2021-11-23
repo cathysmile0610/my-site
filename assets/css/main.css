@@ -1,0 +1,103 @@
+
+body,
+.input:focus,
+.textarea:focus,
+select:focus,
+.custom-select:focus,
+.preloader,
+.medium-zoom-overlay {
+    background-color: #f0f0f6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.pricing-item.content-box .name {
+    color: #44566c;
+}
+body,
+.input,
+.textarea,
+select,
+.custom-select,
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+.input:focus,
+.textarea:focus,
+select:focus,
+.custom-select:focus,
+select option,
+.custom-select option,
+.dropdown-menu,
+.contacts-block__item a,
+.social__link,
+.case-item__caption,
+.popover-map-title,
+.popover-map-caption,
+.gallery-grid__title a,
+.news-item .title a,
+.news-item__date,
+.news-item p,
+.content-post p,
+.footer-post__share,
+.comment-box__body,
+.comment-box__details,
+.comment-form .icon-smile:hover,
+.review-item__caption,
+.content-sidebar .widget-title a,
+.content-sidebar ul li a,
+.single-post-text .wp-block-archives li a,
+.content-sidebar ul li a.rsswidget,
+.rssSummary,
+.tags-links a,
+.tagcloud a,
+.col__sedebar .tagcloud a,
+.wp-block-tag-cloud a,
+.archive-item .date a,
+.archive-item .name,
+.nav-links .nav-previous a,
+.nav-links .nav-next a,
+.comment-box__details a,
+.logo-text .logo-text__name,
+.logo-text .logo-text__sub,
+.error-page .description,
+.pricing-item.content-box .name {
+    color: #44566c;
+}
+
+.overlay-slideNav {
+    background-color: rgba(21, 35, 46, .3);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+
+.preloader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1106;
+    opacity: 1
+}
+
+.preloader > * {
+    min-width: 0
+}
